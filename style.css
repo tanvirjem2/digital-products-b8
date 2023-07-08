@@ -47,6 +47,9 @@
     align-items: center;
     background-image: url("images/background.png"), linear-gradient(45deg, rgb(8, 8, 8), rgb(53, 53, 53));
     color: white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .title {
@@ -71,4 +74,18 @@
 
 .btn:hover {
     color: blue;
+}
+
+/* About us section */
+.about-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 10px;
+}
+
+.about-title {
+    text-align: center;
+    padding-top: 20px;
 }
